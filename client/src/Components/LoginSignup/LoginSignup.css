@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: url('../Assets/bg.gif') center/cover no-repeat;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    background: rgba(255, 255, 255, 0.5); 
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.text {
+    color: #525B44;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.underline {
+    width: 61px;
+    height: 6px;
+    background: #525B44;
+    border-radius: 9px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 60px;
+    background: rgba(234, 234, 234, 0.9);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.input img {
+    margin: 0px 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.input input {
+    height: 40px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 16px;
+}
+
+.forgot-password {
+    margin-top: 15px;
+    color: #070707;
+    font-size: 14px;
+}
+
+.forgot-password span {
+    color: #535b45;
+    cursor: pointer;
+}
+
+.submit-container {
+    display: flex;
+    margin: 15px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 50px;
+    color: #fff;
+    background: #85A98F;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.submit:hover {
+    background: #5A6C57;
+}
+
+.gray {
+    background: #EAEAEA;
+    color: #000000;
+    cursor: pointer;
+}
+
+.centered-action {
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+    border: none;
+    text-decoration: underline;
+}
+  
+.toggle{
+    cursor: pointer;
+    display: inline-block;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    text-align: center;
+    font-size: small;
+    color: #535b45;
+}

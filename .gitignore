@@ -1,0 +1,2 @@
+# git ignore all dependencies (run npm install to DL all dependencies)
+node_modules/
